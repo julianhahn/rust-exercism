@@ -26,3 +26,11 @@ impl Clock {
         }
     }
 }
+
+fn main() {
+    let clock = Clock {
+        hours: 11,
+        minutes: 30,
+    };
+    println!("{}", clock.to_string());
+}
