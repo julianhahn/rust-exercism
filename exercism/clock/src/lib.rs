@@ -5,7 +5,7 @@ pub struct Clock {
     minutes: i32,
 }
 
-impl fmt::Display for Clock {
+impl std::fmt::Display for Clock {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "{}:{}", self.hours, self.minutes)
     }
