@@ -1,5 +1,14 @@
+// extension for this project
 {
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {},
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.inlayHints.enabled": "on"
-}
+    "editor.formatOnSaveMode": "file",
+    "editor.inlayHints.enabled": "on",
+    "rust-analyzer.assist.emitMustUse": false,
+    "rust-analyzer.check.command": "clippy",
+    "cSpell.words": [
+      "Exercism",
+      "refactory",
+    ]
+  }
